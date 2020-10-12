@@ -36,3 +36,223 @@
     transform: rotate(360deg);
   }
 }
+
+/*------------------------------------------- form styling css---------------------------------------------------*/
+
+.bodyLogin{
+  background:rgba(7, 7, 145, 0.863);
+  color:#111312;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container{
+  max-width:1170px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+}
+
+ul{
+  list-style: none;
+  padding:0;
+}
+
+.brand{
+  text-align: center;
+}
+
+.brand span{
+  color:#fff;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper > *{
+  padding: 1em;
+}
+
+.company-info{
+  background:#9399f0;
+}
+
+.company-info h3, .company-info ul{
+  text-align: center;
+  margin:0 0 1rem 0;
+}
+
+.contact{
+  background:#f9feff;
+}
+
+/* FORM STYLES */
+.contact-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+
+.contact-form-label{
+  display:block;
+}
+
+.contact-form-p{
+  margin:0;
+}
+
+.contact-form-full{
+  grid-column: 1 / 3;
+}
+
+.contact form button, .contact form input, .contact form textarea, .contact form select{
+  width:100%;
+  padding:.4em;
+  border:1px solid #c9e6ff;
+}
+
+.contact form button{
+  background:#c9e6ff;
+  border:0;
+  text-transform: uppercase;
+}
+
+.contact form button:hover,.contact form button:focus{
+  background:#92bde7;
+  color:#fff;
+  outline:0;
+  transition: background-color 2s ease-out;
+}
+
+/* LARGE SCREENS */
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+}
+
+/*----------------------------------------------------- Home page Bg -------------------------------------*/
+
+.roomsHero {
+    min-height: calc(90vh - 120px);
+    background: url("./images/education6.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Title */
+  .section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .section-title h4 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  .section-title div {
+    width: 5rem;
+    height: 5px;
+    margin: 0 auto;
+    background: #3eb819;
+  }
+  /* end of Title */
+  
+/*----------------------------------------------------- Banner ---------------------------------------------*/
+  .bannerAU {
+    display: inline-block;
+    background: rgba(65, 75, 62, 0.5);
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+  }
+  .bannerAU h1 {
+    font-size: 2.5rem;
+  }
+  .bannerAU div {
+    width: 10rem;
+    height: 5px;
+    background: #1c19b8;
+    margin: 1.7rem auto;
+  }
+  .bannerAU h2 {
+    width: 10rem;
+    height: 2px;
+    background: #fff;
+    margin: 1.7rem auto;
+  }
+
+  .bannerAU p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  @media screen and (min-width: 576px) {
+    .bannerAU {
+      padding: 2rem 3rem;
+    }
+    .bannerAU h1 {
+      font-size: 3rem;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .bannerAU {
+      padding: 2rem 6rem;
+    }
+    .bannerAU h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #222;
+    background: #af9a7d;
+    padding: 0.4rem 0.9rem;
+    border: 3px solid #af9a7d;
+    transition: all 0.3s linear;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .btn-primary:hover {
+    background: transparent;
+    color: #af9a7d;
+  }
+
+/* Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-title h4 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.section-title div {
+  width: 5rem;
+  height: 5px;
+  margin: 0 auto;
+  background: #af9a7d;
+}
+/* end of Title */
+
